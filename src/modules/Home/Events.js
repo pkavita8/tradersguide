@@ -11,9 +11,9 @@ const SingleEvent = () => {
       alignItems={"center"}
       my={0}
     >
-      <Grid item width={"30%"}>
+      <Grid item width={"20%"}>
         <Typography
-          variant="h3"
+          variant="h4"
           style={{ textAlign: "center", fontWeight: "900" }}
         >
           14<sup>th</sup> - 15<sup>th</sup>
@@ -21,13 +21,13 @@ const SingleEvent = () => {
         </Typography>
       </Grid>
       <Grid item width={"50%"}>
-        <Typography variant="h6" color="primary" style={{ fontWeight: "900" }}>
+        <Typography variant="h6" color="primary" style={{ fontWeight: "900" , marginBottom:'5px'}}>
           Stock Options Masterclass
         </Typography>
         <Typography>
-          4 Strategies. {"\n"}
-          8+ Hours.{"\n"}
-          Absolutely Free!{"\n"}
+          4 Strategies. <br/>
+          8+ Hours.<br/>
+          Absolutely Free!<br/>
           Learn Stock Options Buying, Banknifty Options BuyingBanknifty Options
           Selling & Banknifty Futures in a 2-Day Masterclass to redefine your
           trading.
