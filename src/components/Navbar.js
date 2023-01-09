@@ -1,23 +1,21 @@
 import * as React from "react";
+import MenuIcon from "@mui/icons-material/Menu";
+import { SwipeableDrawer } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
+import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
-import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import Image from "next/image";
 import { logoName } from "../assets/images/";
-import { SwipeableDrawer } from "@mui/material";
 
 const drawerWidth = 240;
+
 const navItems = [
   "Home",
   "About Us",
@@ -86,8 +84,7 @@ function DrawerAppBar(props) {
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button variant="text" key={item} sx={{ color: "#fff",   textTransform: 'none',
-			}}>
+              <Button variant="text" key={item} sx={{ color: "#fff",   textTransform: 'none'}}>
                 {item}
               </Button>
             ))}
