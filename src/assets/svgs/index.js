@@ -1,2 +1,3 @@
 
-// export {default as logo_purple} from './logo_purple.svg';
+export {default as logo} from './Logo.svg';
+export {default as logoName} from './LogoName.svg';

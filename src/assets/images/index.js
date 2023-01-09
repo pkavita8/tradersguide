@@ -1,5 +1,4 @@
-const Images = {
-// image1: require('./image.png'),
-};
 
-export default Images;
+export {default as whatsapp} from './Whatsapp.png';
+export {default as logoName} from './LogoName.webp';
+export {default as menu} from './menu.png';
