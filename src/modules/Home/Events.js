@@ -45,7 +45,7 @@ const Events = () => {
   return (
     <Box mt={2}>
       <Typography
-        variant="h2"
+        variant="h3"
         style={{ textAlign: "center", fontWeight: "900" }}
       >
         Upcoming Events
