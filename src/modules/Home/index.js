@@ -4,6 +4,7 @@ import React from 'react'
 import {fallback} from '../../assets/images'
 import BackToTop from './BackToTop';
 import Slogan from './Slogan';
+import Events from './Events'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <WhatsApp />
         </Fab>
      <Slogan/>
-     <Slogan/>
+     <Events/>
     </BackToTop>
   );
 };
