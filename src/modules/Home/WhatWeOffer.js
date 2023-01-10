@@ -44,7 +44,7 @@ const WhatWeOffer = () => {
               style={{
                 height: "340px",
                 width: "261px",
-                background: "#fff",
+                background: "#101010",
                 justifyContent: "center",
                 alignItems: "center",
                 margin: "30px 15px",
@@ -65,7 +65,7 @@ const WhatWeOffer = () => {
                   fontSize: "18px",
                   fontWeight: "600",
                   textAlign: "center",
-                  color: "#000",
+                  color: "#fff",
                   lineHeight: "3em",
                 }}
               >
