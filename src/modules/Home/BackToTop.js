@@ -57,11 +57,9 @@ export default function BackToTop(props) {
   return (
     <React.Fragment>
       <Toolbar id="back-to-top-anchor" />
-      <Container>
         <Box sx={{ my: 2 }}>
          {props.children}
         </Box>
-      </Container>
       <ScrollTop {...props}>
         <Fab size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />

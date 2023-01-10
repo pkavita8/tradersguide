@@ -13,7 +13,6 @@ import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Image from "next/image";
 import { logoName } from "../assets/images/";
-import { TickerTape } from "react-ts-tradingview-widgets";
 
 const drawerWidth = 240;
 
@@ -91,7 +90,6 @@ function DrawerAppBar(props) {
             ))}
           </Box>
         </Toolbar>
-        <TickerTape colorTheme="dark" />
       </AppBar>
       <Box component="nav">
         <SwipeableDrawer
