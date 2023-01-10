@@ -1,4 +1,3 @@
-// import UIData from './UIData';
-// import utils from './utils';
+import { Color } from "./Constants";
 
-// export {  UIData ,utils};
+export { Color };
