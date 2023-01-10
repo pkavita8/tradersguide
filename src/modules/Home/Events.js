@@ -4,23 +4,28 @@ import { Box, Button, Grid, Typography } from "@mui/material";
 
 const SingleEvent = () => {
   return (
-    <Grid
-      container
-      spacing={12}
-      sx={{justifyContent:{xs:'flex-start', sm:'center'}, }}
+    <Box
+      sx={{
+        justifyContent: { xs: "flex-start", sm: "center" },
+        paddingX: "20px",
+        display: "flex",
+        flexDirection: { xs: "column", sm: "row" },
+      }}
       alignItems={"center"}
-      direction={{ xs: "column", sm: "row" }}
-      my={0}
+      my={10}
     >
-      <Grid item width={"20%"}>
+      <Box sx={{ width: { sm: "20%" } }}>
         <Typography
-          fontSize={32}
-          style={{ textAlign: "center", fontWeight: "900" }}
+          sx={{
+            fontWeight: "900",
+            fontSize: { xs: "25px", sm: "32px" },
+            paddingBottom: "12px",
+          }}
         >
           14<sup>th</sup> - 15<sup>th</sup>Jan
         </Typography>
-      </Grid>
-      <Grid item width={"50%"}>
+      </Box>
+      <Box sx={{ width: { sm: "50%" } }}>
         <Typography
           variant="h6"
           color="primary"
@@ -38,21 +43,24 @@ const SingleEvent = () => {
           Selling & Banknifty Futures in a 2-Day Masterclass to redefine your
           trading.
         </Typography>
-      </Grid>
-      <Grid item>
+      </Box>
+      <Box sx={{ paddingY: "20px" }}>
         <Button variant="contained" endIcon={<ArrowRight />}>
           Know more
         </Button>
-      </Grid>
-    </Grid>
+      </Box>
+    </Box>
   );
 };
 const Events = () => {
   return (
     <Box my={10}>
       <Typography
-        variant="h3"
-        style={{ textAlign: "center", fontWeight: "900" }}
+        sx={{
+          textAlign: "center",
+          fontWeight: "900",
+          fontSize: { xs: "25px", sm: "40px" },
+        }}
       >
         Upcoming Events
       </Typography>

@@ -6,26 +6,26 @@ import { UIData } from "../../utils";
 const WhatWeOffer = () => {
   return (
     <div className="what-we-offer">
-      <div
-        style={{
+      <Box
+        sx={{
           margin: "auto",
-          width: "70%",
-          background: "linear-gradient(to right, #000, #fff, #000)",
+          width: { xs: "100%", sm: "70%" },
+          background:"linear-gradient(to right, #000, #fff, #000)",
         }}
       >
         <Typography
-          style={{
-            fontSize: "41px",
+          sx={{
+            fontSize: { xs: "18px", sm: "41px" },
             fontWeight: "900",
             color: "#000",
             textAlign: "center",
             lineHeight: "1.5em",
-            letterSpacing: "0.25em",
+            letterSpacing: { xs: "0rem", sm: "0.25rem" },
           }}
         >
           HERE&apos;S WHAT WE OFFER
         </Typography>
-      </div>
+      </Box>
 
       <div
         style={{
@@ -50,7 +50,6 @@ const WhatWeOffer = () => {
                 margin: "30px 15px",
                 display: "flex",
                 flexDirection: "column",
-                
               }}
             >
               <Image
