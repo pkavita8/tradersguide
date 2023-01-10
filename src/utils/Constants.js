@@ -1,5 +1,5 @@
-export const Color = {
-    secondary: "#101010",
-    textTitle: "#00f381"
+const Constants = {
+ 
 }
 
+export default Constants;

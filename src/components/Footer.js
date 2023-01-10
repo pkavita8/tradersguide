@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import { Color } from "../utils/index";
+import { Colors} from "../utils";
 import { Button, IconButton, TextField, Typography } from "@mui/material";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -17,7 +17,7 @@ function Footer(props) {
       sx={{
         minHeight: "200px",
         height: "fit-content",
-        backgroundColor: Color.secondary,
+        backgroundColor: Colors.secondary,
         alignItems: "center",
         display: "flex",
         flexDirection: "column",
@@ -35,7 +35,7 @@ function Footer(props) {
           width: "70%",
         }}
       >
-        <Typography variant="h5" component="h3" color={Color.textTitle}>
+        <Typography variant="h5" component="h3" color={'primary'}>
           Connect with our experts
         </Typography>
         <Box
@@ -103,7 +103,7 @@ function Footer(props) {
           Submit
         </Button>
         <Box sx={{ textAlign: "start", width: "inherit", padding: "10px 0" }}>
-          <Typography variant="h5" component="h3" color={Color.textTitle}>
+          <Typography variant="h5" component="h3" color={'primary'}>
             Social Media
           </Typography>
 
@@ -135,7 +135,7 @@ function Footer(props) {
           width: "70%",
         }}
       >
-        <Typography variant="h5" component="h3" color={Color.textTitle} sx={{ paddingBottom: "10px" }}>
+        <Typography variant="h5" component="h3" color={'primary'} sx={{ paddingBottom: "10px" }}>
           For Admissions Contact
         </Typography>
         <Box sx={{ display: { xs: "block", sm: "flex" }, justifyContent: "space-between" }}>

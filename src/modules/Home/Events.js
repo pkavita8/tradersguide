@@ -49,7 +49,7 @@ const SingleEvent = () => {
 };
 const Events = () => {
   return (
-    <Box mt={2}>
+    <Box my={10}>
       <Typography
         variant="h3"
         style={{ textAlign: "center", fontWeight: "900" }}

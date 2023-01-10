@@ -4,6 +4,7 @@ import React from "react";
 import BackToTop from "./BackToTop";
 import Slogan from "./Slogan";
 import Events from "./Events";
+import WhatWeOffer from "./WhatWeOffer";
 import { TickerTape } from "react-ts-tradingview-widgets";
 
 const Home = () => {
@@ -56,6 +57,7 @@ const Home = () => {
       </Fab>
       <Slogan />
       <Events />
+      <WhatWeOffer/>
     </BackToTop>
   );
 };

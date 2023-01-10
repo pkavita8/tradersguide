@@ -43,4 +43,6 @@ Current Website
 https://www.tradersguide.info/
 
 Target Reference:
-https://www.asmitapatel.com/
+1. https://www.asmitapatel.com/
+
+2. https://www.gettogetherfinance.com/
