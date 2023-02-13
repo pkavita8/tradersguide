@@ -54,7 +54,7 @@ const SingleEvent = () => {
 };
 const Events = () => {
   return (
-    <Box my={10}>
+    <Box mb={2}>
       <Typography
         sx={{
           textAlign: "center",
