@@ -97,6 +97,7 @@ function DrawerAppBar(props) {
           container={container}
           variant="temporary"
           open={mobileOpen}
+          onOpen={()=>{}}
           onClose={handleDrawerToggle}
           ModalProps={{
             keepMounted: true, // Better open performance on mobile.

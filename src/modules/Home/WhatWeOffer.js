@@ -10,7 +10,7 @@ const WhatWeOffer = () => {
         sx={{
           margin: "auto",
           width: { xs: "100%", sm: "70%" },
-          background:"linear-gradient(to right, #000, #fff, #000)",
+          background: "linear-gradient(to right, #000, #fff, #000)",
         }}
       >
         <Typography
@@ -36,54 +36,50 @@ const WhatWeOffer = () => {
           justifyContent: "center",
         }}
       >
-        {UIData.whatWeOffer.map((_) => {
-          return (
-            <Box
-              className="what-we-offer--tile"
-              key={_.key}
+        {UIData.whatWeOffer.map((_) => (
+          <Box
+            className="what-we-offer--tile"
+            key={_.key}
+            style={{
+              height: "340px",
+              width: "261px",
+              background: "#101010",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "30px 15px",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <Image
+              src={_.image}
+              alt={_.title}
+              width={220}
+              height={220}
+            />
+            <Typography
               style={{
-                height: "340px",
-                width: "261px",
-                background: "#101010",
-                justifyContent: "center",
-                alignItems: "center",
-                margin: "30px 15px",
-                display: "flex",
-                flexDirection: "column",
+                fontSize: "18px",
+                fontWeight: "600",
+                textAlign: "center",
+                color: "#fff",
+                lineHeight: "3em",
               }}
             >
-              <Image
-                src={_.image}
-                alt={_.title}
-                style={{
-                  width: "220px",
-                  height: "220px",
-                }}
-              />
-              <Typography
-                style={{
-                  fontSize: "18px",
-                  fontWeight: "600",
-                  textAlign: "center",
-                  color: "#fff",
-                  lineHeight: "3em",
-                }}
-              >
-                {_.title}
-              </Typography>
-              <Button
-                variant="contained"
-                sx={{
-                  textTransform: "none",
-                  fontWeight: "600",
-                  borderRadius: "18px",
-                }}
-              >
-                Know More
-              </Button>
-            </Box>
-          );
-        })}
+              {_.title}
+            </Typography>
+            <Button
+              variant="contained"
+              sx={{
+                textTransform: "none",
+                fontWeight: "600",
+                borderRadius: "18px",
+              }}
+            >
+              Know More
+            </Button>
+          </Box>
+        ))}
       </div>
     </div>
   );

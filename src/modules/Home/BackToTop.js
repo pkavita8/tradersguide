@@ -1,12 +1,11 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Box from '@mui/material/Box';
+import Fab from '@mui/material/Fab';
+import Fade from '@mui/material/Fade';
 import Toolbar from '@mui/material/Toolbar';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Fab from '@mui/material/Fab';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import Fade from '@mui/material/Fade';
+import PropTypes from 'prop-types';
+import * as React from 'react';
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -61,7 +60,7 @@ export default function BackToTop(props) {
          {props.children}
         </Box>
       <ScrollTop {...props}>
-        <Fab size="small" aria-label="scroll back to top">
+        <Fab size="small" aria-label="scroll back to top" color='primary'>
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

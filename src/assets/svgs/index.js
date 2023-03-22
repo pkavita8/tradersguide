@@ -1,3 +1,8 @@
-
-export {default as logo} from './Logo.svg';
-export {default as logoName} from './LogoName.svg';
+export { default as logo } from "./Logo.svg";
+export { default as logoName } from "./LogoName.svg";
+export { default as Insta } from "./Insta.svg";
+export { default as LinkedIn } from "./LinkedIn.svg";
+export { default as Facebook } from "./Facebook.svg";
+export { default as Twitter } from "./Twitter.svg";
+export { default as YouTube } from "./YouTube.svg";
+export { default as WhatsApp } from "./WhatsApp.svg";

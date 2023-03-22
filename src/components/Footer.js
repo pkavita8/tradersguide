@@ -1,6 +1,5 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import { Colors } from "../utils";
 import { Button, IconButton, TextField, Typography } from "@mui/material";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -15,8 +14,6 @@ function Footer(props) {
     <Box
       sx={{
         minHeight: "200px",
-        height: "fit-content",
-        backgroundColor: Colors.secondary,
         alignItems: "center",
         display: "flex",
         flexDirection: "column",
