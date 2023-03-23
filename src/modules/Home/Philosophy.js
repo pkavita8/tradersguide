@@ -6,7 +6,7 @@ import { MPAT } from "../../assets/images";
 const OurPhilosophy = () => {
   return (
     <>
-      <Box
+      {/* <Box
         component="form"
         autoComplete="off"
         sx={{
@@ -51,7 +51,7 @@ const OurPhilosophy = () => {
             Get Instant Access
           </Button>
         </Stack>
-      </Box>
+      </Box> */}
       <Box sx={{ backgroundColor: "#fff", color: "#000", py: 3 }}>
         <Stack
           direction={"row"}
