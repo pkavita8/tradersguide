@@ -54,7 +54,7 @@ const Slogan = () => {
 
           <Typography variant="h6" fontWeight={"800"} mb={"12px"}>
             EXCLUSIVE PROGRAM FOR{" "}
-            <span style={{ color: "#000", background: "#62b6cb" }}>
+            <span style={{ color: "#000", background: "#1945FE" }}>
               OPTIONS TRADING
             </span>
           </Typography>

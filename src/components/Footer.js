@@ -160,13 +160,13 @@ function Footer(props) {
               flexDirection: "column",
             }}
           >
-            <IconButton aria-label="LocalPhoneIcon" color="secondary">
+            <IconButton aria-label="LocalPhoneIcon" color="primary">
               <LocalPhoneIcon style={{ margin: "0 10px" }} />
               <Typography variant="body1" component="body1">
                 Mobile: 810-4938-187​
               </Typography>
             </IconButton>
-            <IconButton aria-label="EmailIcon" color="secondary">
+            <IconButton aria-label="EmailIcon" color="primary">
               <EmailIcon style={{ margin: "0 10px" }} />
               <Typography variant="body1" component="body1">
                 hello@tradersguide.in
