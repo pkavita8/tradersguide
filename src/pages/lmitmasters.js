@@ -7,7 +7,7 @@ export default function Course1() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <OptionsMultiplier/>
+      <OptionsMultiplier />
       <Footer />
     </main>
   );

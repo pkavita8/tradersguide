@@ -23,6 +23,7 @@ const navItems = [
   { name: "About Us", link: "about-us" },
   { name: "Courses", link: "" },
   { name: "Free Webinar", link: "" },
+  { name: "Contact Us", link: "contact-us" },
   { name: "Log In", link: "" },
 ];
 
@@ -100,7 +101,7 @@ function DrawerAppBar(props) {
                     },
                     {
                       key: "Lets make India Trade",
-                      handleSelect: () => router.push('/om'),
+                      handleSelect: () => router.push('/lmitmasters'),
                     },
                   ]}
                 />
