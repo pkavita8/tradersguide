@@ -233,6 +233,59 @@ const UIData = {
       link: "",
     },
   ],
+  learn: [
+    {
+      title: "Nifty Bank nifty Analysis",
+      videoLink: "https://www.youtube.com/watch?v=TGjo7BCavHc",
+    },
+    {
+      title: "Nifty Bank nifty Analysis",
+      videoLink: "https://www.youtube.com/watch?v=ifAG9bdzA6k",
+    },
+    {
+      title: "Nifty Bank nifty Analysis",
+      videoLink: "https://www.youtube.com/watch?v=ViliO7BZ8AU",
+    },
+    {
+      title: "Nifty Bank nifty Analysis",
+      videoLink: "https://www.youtube.com/watch?v=Zi47JYFEUKQ&t=2s",
+    },
+  ],
+  reviews: [
+    {
+      name: "Pranav parikh",
+      image: one,
+      stars: 5,
+      review:
+        "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",
+    },
+    {
+      name: "Pranav parikh",
+      stars: 5,
+      review:
+        "This is my second course and without doubt it was fabulous. The way Mam put her effort to teach is commendable. During our ongoing LMIT course she started a session at 5AM. Trust my words, no mentor would put such effort. I would advice everyone to test her system and you will definitely be shocked how system works without looking at the candlestick chart. I wish her all the success in her life. Thanks very much Traders Guide",
+    },
+    {
+      name: "Pranav parikh",
+      image: one,
+      stars: 5,
+      review:
+        "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",
+    },
+    {
+      name: "Pranav parikh",
+      stars: 5,
+      review:
+        "This is my second course and without doubt it was fabulous. The way Mam put her effort to teach is commendable. During our ongoing LMIT course she started a session at 5AM. Trust my words, no mentor would put such effort. I would advice everyone to test her system and you will definitely be shocked how system works without looking at the candlestick chart. I wish her all the success in her life. Thanks very much Traders Guide",
+    },
+    {
+      name: "Pranav parikh",
+      image: one,
+      stars: 5,
+      review:
+        "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",
+    },
+  ],
 };
 
 export default UIData;

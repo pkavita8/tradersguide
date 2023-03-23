@@ -1,9 +1,9 @@
 import * as React from "react";
 import { WhatsApp } from "@mui/icons-material";
-import { Fab } from "@mui/material";
+import { Fab, Stack, Typography } from "@mui/material";
 import { TickerTape } from "react-ts-tradingview-widgets";
 import Awards from "./Awards";
-import BackToTop from "./BackToTop";
+import BackToTop from "../../components/BackToTop";
 import Events from "./Events";
 import Journey from "./Journey";
 import PastSpeakers from "./PastSpeakers";
@@ -78,6 +78,11 @@ const Home = () => {
       <Journey />
       <PastSpeakers />
       <SuccessDiaries />
+
+      <Typography variant="h4" fontWeight={"800"} textAlign={"center"} py={2}>
+        Awards <span> & </span>
+        Recognition
+      </Typography>
       <Awards />
       <SocialMedia />
     </BackToTop>

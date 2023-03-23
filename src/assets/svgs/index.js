@@ -6,3 +6,4 @@ export { default as Facebook } from "./Facebook.svg";
 export { default as Twitter } from "./Twitter.svg";
 export { default as YouTube } from "./YouTube.svg";
 export { default as WhatsApp } from "./WhatsApp.svg";
+export { default as star } from "./star.svg";

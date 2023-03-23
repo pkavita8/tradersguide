@@ -10,3 +10,6 @@ export {default as five} from './5.webp';
 export {default as six} from './6.webp';
 export {default as MPAT} from './MPAT.webp';
 export {default as options} from './options.webp';
+export {default as fallback_om} from './fallback_om.webp';
+export {default as trade151} from './Trade15-1.webp';
+export {default as trade152} from './Trade15-2.webp';

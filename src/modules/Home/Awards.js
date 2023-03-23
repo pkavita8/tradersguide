@@ -61,36 +61,11 @@ function RightArrow() {
 }
 const Awards = () => {
   return (
-    <Box>
-      <Stack
-        direction={"row"}
-        justifyContent="center"
-        alignItems="center"
-        flexWrap="wrap"
-        sx={{ py: 2 }}
-      >
-        <Typography variant="h4" fontWeight={"800"} textAlign={"center"} pr={1}>
-          Awards
-        </Typography>
-        <Typography
-          variant="h4"
-          fontWeight={"800"}
-          textAlign={"center"}
-          color={"primary"}
-          pr={1}
-        >
-          &
-        </Typography>
-        <Typography variant="h4" fontWeight={"800"}>
-          Recognition
-        </Typography>
-      </Stack>
       <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
         {UIData.awards.map((item, i) => (
           <Item key={i} item={item} index={i} />
         ))}
       </ScrollMenu>
-    </Box>
   );
 };
 

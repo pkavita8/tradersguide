@@ -1,9 +1,7 @@
-import * as React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
-import { SwipeableDrawer } from "@mui/material";
+import { Button, SwipeableDrawer, Typography } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
@@ -12,20 +10,24 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import * as React from "react";
 import { logoName } from "../assets/images/";
+import ActionMenu from "./ActionMenu";
 
 const drawerWidth = 240;
 
 const navItems = [
-  "Home",
-  "About Us",
-  "Courses",
-  "Free Webinar",
-  "Contact Us",
-  "Log In",
+  { name: "Home", link: "/" },
+  { name: "About Us", link: "about-us" },
+  { name: "Courses", link: "" },
+  { name: "Free Webinar", link: "" },
+  { name: "Log In", link: "" },
 ];
 
 function DrawerAppBar(props) {
+  const router = useRouter();
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -44,10 +46,10 @@ function DrawerAppBar(props) {
 
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+        {navItems.map(({ name, link }) => (
+          <ListItem key={name} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+              <ListItemText primary={name} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -60,14 +62,16 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar component="nav" sx={{alignItems:{xs:'flex-end', sm:'normal'}}}>
+      <AppBar
+        component="nav"
+        sx={{background:'black', alignItems: { xs: "flex-end", sm: "normal" } }}
+      >
         <Toolbar>
           <IconButton
-            color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{display: { sm: "none" } }}
+            sx={{ display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
@@ -82,12 +86,34 @@ function DrawerAppBar(props) {
               width={100}
             />
           </Box>
+          {/* Desktop Navbar */}
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map((item) => (
-              <Button variant="text" key={item} sx={{ color: "#fff",   textTransform: 'none'}}>
-                {item}
-              </Button>
-            ))}
+            {navItems.map(({ name, link }) =>
+              name === "Courses" ? (
+                <ActionMenu
+                  key={name}
+                  name={name}
+                  options={[
+                    {
+                      key: "Options Multiplier",
+                      handleSelect: () => router.push('/om'),
+                    },
+                    {
+                      key: "Lets make India Trade",
+                      handleSelect: () => router.push('/om'),
+                    },
+                  ]}
+                />
+              ) : (
+                <Button
+                  key={name}
+                  variant="text"
+                  sx={{ color: "#fff", textTransform: "none" }}
+                >
+                  <Link href={link}> {name}</Link>
+                </Button>
+              )
+            )}
           </Box>
         </Toolbar>
       </AppBar>
@@ -97,7 +123,7 @@ function DrawerAppBar(props) {
           container={container}
           variant="temporary"
           open={mobileOpen}
-          onOpen={()=>{}}
+          onOpen={() => {}}
           onClose={handleDrawerToggle}
           ModalProps={{
             keepMounted: true, // Better open performance on mobile.
@@ -107,6 +133,7 @@ function DrawerAppBar(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+              background:'black'
             },
           }}
         >
