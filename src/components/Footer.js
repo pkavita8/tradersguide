@@ -31,9 +31,9 @@ function Footer(props) {
           width: "70%",
         }}
       >
-        <Typography variant="h5" component="h3" color={"primary"}>
+        {/* <Typography variant="h5" component="h3" color={"primary"}>
           Connect with our experts
-        </Typography>
+        </Typography> */}
         <Box
           sx={{
             display: { xs: "block", sm: "flex" },
@@ -84,7 +84,10 @@ function Footer(props) {
           fullWidth
           placeholder="Type your message here..."
           variant="standard"
-          sx={{ width: { xs: "100%", sm: "66%" }, margin: { xs: "0px", sm: "20px" }  }}
+          sx={{
+            width: { xs: "100%", sm: "66%" },
+            margin: { xs: "0px", sm: "20px" },
+          }}
         />
 
         <Button
@@ -93,12 +96,18 @@ function Footer(props) {
             display: { xs: "block", sm: "flex" },
             alignContent: "flex-end",
             alignItems: "flex-end",
-            marginTop:'20px'
+            marginTop: "20px",
           }}
         >
           Submit
         </Button>
-        <Box sx={{ textAlign: "start", width: {xs:'100%', sm: "inherit"}, margin: "18px 0" }}>
+        <Box
+          sx={{
+            textAlign: "start",
+            width: { xs: "100%", sm: "inherit" },
+            margin: "18px 0",
+          }}
+        >
           <Typography variant="h5" component="h3" color={"primary"}>
             Social Media
           </Typography>
@@ -128,7 +137,7 @@ function Footer(props) {
           display: "flex",
           flexDirection: "column",
           padding: "30px 0",
-          width: {xs:"100%", sm:"70%"},
+          width: { xs: "100%", sm: "70%" },
         }}
       >
         <Typography
@@ -167,9 +176,13 @@ function Footer(props) {
           <Typography
             variant="body1"
             component="body1"
-            style={{ padding: "5px", lineBreak: "auto", width: {xs:'90%',sm:"40%" }}}
+            style={{
+              padding: "5px",
+              lineBreak: "auto",
+              width: { xs: "90%", sm: "40%" },
+            }}
           >
-            9th Floor, Office No-909, NIHARIKA MIRAGE, Sector No. 10, Plot
+            3rd Floor, Office No-301, NIHARIKA MIRAGE, Sector No. 10, Plot
             No.274, Kharghar, Raigad, Raigad, Maharashtra, 410210
           </Typography>
         </Box>

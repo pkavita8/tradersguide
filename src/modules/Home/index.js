@@ -52,7 +52,7 @@ const Home = () => {
         ]}
       />
       <a
-        href="https://api.whatsapp.com/send?phone=919321652118"
+        href="https://api.whatsapp.com/send?phone=918779128955"
         target="_blank"
         rel="noreferrer"
       >
@@ -72,18 +72,18 @@ const Home = () => {
         </Fab>
       </a>
       <Slogan />
-      <Events />
+      {/* <Events /> */}
       <WhatWeOffer />
       <Philosophy />
-      <Journey />
-      <PastSpeakers />
+      {/* <Journey /> */}
+      {/* <PastSpeakers /> */}
       <SuccessDiaries />
 
-      <Typography variant="h4" fontWeight={"800"} textAlign={"center"} py={2}>
+      {/* <Typography variant="h4" fontWeight={"800"} textAlign={"center"} py={2}>
         Awards <span> & </span>
         Recognition
-      </Typography>
-      <Awards />
+      </Typography> */}
+      {/* <Awards /> */}
       <SocialMedia />
     </BackToTop>
   );

@@ -41,7 +41,7 @@ function DrawerAppBar(props) {
       <Image
         src={logoName}
         alt="Traders guide academy"
-        height={70}
+        height={100}
         width={100}
       />
 
@@ -83,8 +83,8 @@ function DrawerAppBar(props) {
             <Image
               src={logoName}
               alt="Traders guide academy"
-              height={70}
-              width={100}
+              height={80}
+              width={80}
             />
           </Box>
           {/* Desktop Navbar */}

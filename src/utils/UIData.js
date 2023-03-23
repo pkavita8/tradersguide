@@ -134,34 +134,20 @@ const UIData = {
   ],
   diaries: [
     {
-      title: "Nifty Bank nifty Analysis For Tomorrow 03 March 2023",
-      description:
-        "An independent woman who travels the world and still makes money on autopilot mode. Stock Market helped her follow her passion while trading",
+      title: "Nifty Bank nifty Analysis",
       videoLink: "https://www.youtube.com/watch?v=TGjo7BCavHc",
     },
     {
-      title: "30 Lacs To 12 Crores | CA To A Full Time Trader | Success Story",
-      description:
-        "An independent woman who travels the world and still makes money on autopilot mode. Stock Market helped her follow her passion while trading",
+      title: "Nifty Bank nifty Analysis",
       videoLink: "https://www.youtube.com/watch?v=ifAG9bdzA6k",
     },
     {
-      title: "30 Lacs To 12 Crores | CA To A Full Time Trader | Success Story",
-      description:
-        "An independent woman who travels the world and still makes money on autopilot mode. Stock Market helped her follow her passion while trading",
+      title: "Nifty Bank nifty Analysis",
       videoLink: "https://www.youtube.com/watch?v=ViliO7BZ8AU",
     },
     {
-      title: "30 Lacs To 12 Crores | CA To A Full Time Trader | Success Story",
-      description:
-        "An independent woman who travels the world and still makes money on autopilot mode. Stock Market helped her follow her passion while trading",
-      videoLink: "https://www.youtube.com/watch?v=Zi47JYFEUKQ&t=2s",
-    },
-    {
-      title: "30 Lacs To 12 Crores | CA To A Full Time Trader | Success Story",
-      description:
-        "An independent woman who travels the world and still makes money on autopilot mode. Stock Market helped her follow her passion while trading",
-      videoLink: "https://www.youtube.com/watch?v=Zi47JYFEUKQ&t=2s",
+      title: "Nifty Bank nifty Analysis",
+      videoLink: "https://www.youtube.com/watch?v=YdXvOtZNT4M",
     },
   ],
   awards: [
@@ -215,7 +201,7 @@ const UIData = {
     {
       title: "Instagram",
       icon: Insta,
-      link: "https://www.instagram.com/traders_guide_academyy",
+      link: "https://instagram.com/traders_guide_academy?igshid=YmMyMTA2M2Y=",
     },
     {
       title: "Facebook",
@@ -248,39 +234,44 @@ const UIData = {
     },
     {
       title: "Nifty Bank nifty Analysis",
-      videoLink: "https://www.youtube.com/watch?v=Zi47JYFEUKQ&t=2s",
+      videoLink: "https://www.youtube.com/watch?v=YdXvOtZNT4M",
     },
   ],
   reviews: [
     {
       name: "Pranav parikh",
       image: one,
+      city: "Ahmedabad",
       stars: 5,
       review:
         "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",
     },
     {
-      name: "Pranav parikh",
+      name: "Tejaswini Shah",
       stars: 5,
+      city: "Mumbai",
       review:
         "This is my second course and without doubt it was fabulous. The way Mam put her effort to teach is commendable. During our ongoing LMIT course she started a session at 5AM. Trust my words, no mentor would put such effort. I would advice everyone to test her system and you will definitely be shocked how system works without looking at the candlestick chart. I wish her all the success in her life. Thanks very much Traders Guide",
     },
     {
-      name: "Pranav parikh",
+      name: "Kumar Abhijeet",
       image: one,
+      city: "Mumbai",
       stars: 5,
       review:
-        "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",
+        "Best thing that covid period gave me was an opportunity to try something new, in order to earn some money,i.e.,to invest and trade in stock market. I was excited at first regarding the opportunities that this market gave but the passion for trading became very low due to continuous loses.. I just observed the trading style at first and learned that the prediction rate is very much high for the stocks given by the platform. The passion to learn made me enroll under  October batch and now I have just completed my course. I know it will be strange for some to hear but this course has given me my lost confidence back and hence, I am motivated again to trade in the market. The way traders guide team mentors you is amazing. They provide lifetime support and are in constant touch with you. The classes itself made me self dependent in the market. ",
     },
     {
-      name: "Pranav parikh",
+      name: "Sharan Tambe",
       stars: 5,
+      city: "Bangalore",
       review:
         "This is my second course and without doubt it was fabulous. The way Mam put her effort to teach is commendable. During our ongoing LMIT course she started a session at 5AM. Trust my words, no mentor would put such effort. I would advice everyone to test her system and you will definitely be shocked how system works without looking at the candlestick chart. I wish her all the success in her life. Thanks very much Traders Guide",
     },
     {
-      name: "Pranav parikh",
+      name: "Ishika Yadav",
       image: one,
+      city: "New Delhi",
       stars: 5,
       review:
         "It is amazing place to learn and final destination for each Pro Trader. She teaches all the system which are really amazing. Most importantly all system requires only 15 Minutes a day. That is it. So Best Part is Trade with Peace and Productive. Amazing.",

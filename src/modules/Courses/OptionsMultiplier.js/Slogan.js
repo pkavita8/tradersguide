@@ -59,11 +59,11 @@ const Slogan = () => {
             </span>
           </Typography>
 
-          <Typography variant="h4" fontWeight={"800"} color="primary" mb={2}>
+          {/* <Typography variant="h4" fontWeight={"800"} color="primary" mb={2}>
             Batch Starts<span style={{ color: "#fff" }}> 5 April&apos;23</span>
-          </Typography>
+          </Typography> */}
 
-          <Typography
+          {/* <Typography
             variant="h6"
             fontWeight={"800"}
             color="primary"
@@ -73,7 +73,7 @@ const Slogan = () => {
               Learn From Full Time Trader, Mentor & Trend follower{" "}
             </span>
             Traders Guide
-          </Typography>
+          </Typography> */}
           <Button variant="contained">REGISTER NOW</Button>
         </Box>
 

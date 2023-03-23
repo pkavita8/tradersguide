@@ -63,10 +63,11 @@ const OurPhilosophy = () => {
             fontWeight={"800"}
             textAlign={"center"}
             pr={1}
+            color={"primary"}
           >
             Our
           </Typography>
-          <Typography variant="h4" fontWeight={"800"} color={"primary"}>
+          <Typography variant="h4" fontWeight={"800"} >
             Philosophy
           </Typography>
         </Stack>

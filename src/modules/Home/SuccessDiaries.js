@@ -35,14 +35,6 @@ function Item({ item: { title, description, thumbnail, videoLink }, index }) {
       >
         {title}
       </Typography>
-      <Typography
-        sx={{
-          fontSize: "15px",
-          paddingY: 1.5,
-        }}
-      >
-        {description}
-      </Typography>
     </Stack>
   );
 }

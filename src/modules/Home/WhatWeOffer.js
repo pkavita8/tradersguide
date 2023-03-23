@@ -68,7 +68,7 @@ const WhatWeOffer = () => {
             >
               {_.title}
             </Typography>
-            <Button
+            {/* <Button
               variant="contained"
               sx={{
                 textTransform: "none",
@@ -77,7 +77,7 @@ const WhatWeOffer = () => {
               }}
             >
               Know More
-            </Button>
+            </Button> */}
           </Box>
         ))}
       </div>
