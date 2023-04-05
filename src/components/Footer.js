@@ -31,9 +31,9 @@ function Footer(props) {
           width: "70%",
         }}
       >
-        {/* <Typography variant="h5" component="h3" color={"primary"}>
+        <Typography variant="h5" component="h3" color={"primary"}>
           Connect with our experts
-        </Typography> */}
+        </Typography>
         <Box
           sx={{
             display: { xs: "block", sm: "flex" },
@@ -101,7 +101,7 @@ function Footer(props) {
         >
           Submit
         </Button>
-        <Box
+        {/* <Box
           sx={{
             textAlign: "start",
             width: { xs: "100%", sm: "inherit" },
@@ -127,7 +127,7 @@ function Footer(props) {
           <IconButton aria-label="LinkedInIcon" color="secondary">
             <LinkedInIcon />
           </IconButton>
-        </Box>
+        </Box> */}
       </Box>
       <Box
         component="form"
@@ -146,7 +146,7 @@ function Footer(props) {
           color={"primary"}
           sx={{ paddingBottom: "10px" }}
         >
-          For Admissions Contact
+          For Enquiries Contact
         </Typography>
         <Box
           sx={{
@@ -183,7 +183,7 @@ function Footer(props) {
             }}
           >
             3rd Floor, Office No-301, NIHARIKA MIRAGE, Sector No. 10, Plot
-            No.274, Kharghar, Raigad, Raigad, Maharashtra, 410210
+            No.274, Kharghar, Raigad, Maharashtra, 410210
           </Typography>
         </Box>
       </Box>

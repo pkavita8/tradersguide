@@ -6,43 +6,28 @@ const UIData = {
     {
       key: 1,
       image: one,
-      title: "Trading Volatility Breakouts",
+      title: "Mentorship Program",
     },
     {
       key: 2,
       image: two,
-      title: "Option writing",
+      title: "Advisory Services",
     },
     {
       key: 3,
       image: three,
-      title: "Beginner Lessons",
-    },
-    {
-      key: 4,
-      image: four,
-      title: "Trading Volatility Breakouts",
+      title: "Automation",
     },
     {
       key: 5,
       image: five,
-      title: "Trading Weekly Options",
+      title: "Fund Management",
     },
-    {
-      key: 6,
-      image: six,
-      title: "Strategy Repair Techniques",
-    },
-    {
-      key: 7,
-      image: one,
-      title: "Trading Weekly Options",
-    },
-    {
-      key: 8,
-      image: two,
-      title: "Strategy Repair Techniques",
-    },
+    // {
+    //   key: 6,
+    //   image: six,
+    //   title: "Strategy Repair Techniques",
+    // },
   ],
   chooseYourJourney: [
     {
@@ -139,11 +124,11 @@ const UIData = {
     },
     {
       title: "Nifty Bank nifty Analysis",
-      videoLink: "https://www.youtube.com/watch?v=ifAG9bdzA6k",
+      videoLink: "https://www.youtube.com/watch?v=oN-CtIoVuno",
     },
     {
       title: "Nifty Bank nifty Analysis",
-      videoLink: "https://www.youtube.com/watch?v=ViliO7BZ8AU",
+      videoLink: "https://www.youtube.com/watch?v=ustWpZwJJ9I",
     },
     {
       title: "Nifty Bank nifty Analysis",
@@ -198,25 +183,21 @@ const UIData = {
       icon: YouTube,
       link: "https://www.youtube.com/@tradersguideacademy",
     },
-    {
-      title: "Instagram",
-      icon: Insta,
-      link: "https://instagram.com/traders_guide_academy?igshid=YmMyMTA2M2Y=",
-    },
-    {
-      title: "Facebook",
-      icon: Facebook,
-      link: "",
-    },
+ 
     {
       title: "Twitter",
       icon: Twitter,
       link: "https://twitter.com/guide_traders",
     },
     {
+      title: "Instagram",
+      icon: Insta,
+      link: "https://instagram.com/traders_guide_academy?igshid=YmMyMTA2M2Y=",
+    },
+    {
       title: "LinkedIn",
       icon: LinkedIn,
-      link: "",
+      link: "https://www.linkedin.com/in/traders-guide-244a06202",
     },
   ],
   learn: [
@@ -226,7 +207,7 @@ const UIData = {
     },
     {
       title: "Nifty Bank nifty Analysis",
-      videoLink: "https://www.youtube.com/watch?v=ifAG9bdzA6k",
+      videoLink: "https://www.youtube.com/watch?v=Dcm9JVleTys",
     },
     {
       title: "Nifty Bank nifty Analysis",

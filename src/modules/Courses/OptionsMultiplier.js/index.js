@@ -12,7 +12,7 @@ const OptionsMultiplier = () => {
   return (
     <BackToTop>
       <Slogan />
-      <Overview />
+      {/* <Overview /> */}
       {/* <PastSpeakers /> */}
       <Stack justifyContent="center" alignItems="center" my={5}>
         <Button variant="contained">REGISTER NOW</Button>

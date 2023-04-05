@@ -1,6 +1,6 @@
 export {default as fallback} from './fallback.webp';
 export {default as whatsapp} from './Whatsapp.png';
-export {default as logoName} from './LogoName.jpeg';
+export {default as logoName} from './blue.png';
 export {default as menu} from './menu.png';
 export {default as one} from './1.webp';
 export {default as two } from './2.webp';
@@ -13,3 +13,4 @@ export {default as options} from './options.webp';
 export {default as fallback_om} from './fallback_om.webp';
 export {default as trade151} from './Trade15-1.webp';
 export {default as trade152} from './Trade15-2.webp';
+export {default as team} from './team.jpg';

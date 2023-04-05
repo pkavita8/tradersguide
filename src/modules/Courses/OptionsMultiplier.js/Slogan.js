@@ -42,22 +42,56 @@ const Slogan = () => {
         width="100%"
         sx={{}}
       >
-        <Box width={{ xs: "90%", sm: "40%" }}>
+        <Box 
+        // width={{ xs: "90%", sm: "40%" }}
+        >
           <Typography
           variant="h4"
             fontSize={{ xs: "28px", sm: "60px" }}
             fontWeight={"800"}
             mb={"12px"}
           >
-            OPTIONS MULTIPLIER
+            ONLINE MENTORSHIP COURSE
           </Typography>
+          <Typography
+          variant="h4"
+            fontSize={{ xs: "28px", sm: "60px" }}
+            fontWeight={"800"}
+            mb={"12px"}
+          >
+            OFFLINE MENTORSHIP COURSE
+          </Typography>
+          <Typography
+          variant="h4"
+            fontSize={{ xs: "28px", sm: "60px" }}
+            fontWeight={"800"}
+            mb={"12px"}
+          >
+            HYBRID OFFLINE  COURSE
+          </Typography>
+          <Typography
+          variant="h4"
+            fontSize={{ xs: "28px", sm: "60px" }}
+            fontWeight={"800"}
+            mb={"12px"}
+          >
+           BEGINNER OPTIONS TRADING COURSE
+          </Typography>
+          {/* <Typography
+          variant="h4"
+            fontSize={{ xs: "28px", sm: "60px" }}
+            fontWeight={"800"}
+            mb={"12px"}
+          >
+            HYBRID OFFLINE  COURSE
+          </Typography> */}
 
-          <Typography variant="h6" fontWeight={"800"} mb={"12px"}>
+          {/* <Typography variant="h6" fontWeight={"800"} mb={"12px"}>
             EXCLUSIVE PROGRAM FOR{" "}
             <span style={{ color: "#000", background: "#1945FE" }}>
               OPTIONS TRADING
             </span>
-          </Typography>
+          </Typography> */}
 
           {/* <Typography variant="h4" fontWeight={"800"} color="primary" mb={2}>
             Batch Starts<span style={{ color: "#fff" }}> 5 April&apos;23</span>
@@ -77,7 +111,7 @@ const Slogan = () => {
           <Button variant="contained">REGISTER NOW</Button>
         </Box>
 
-        <Box sx={{ width: { xs: "90%", sm: "35%" }, height: "40%" }}>
+        {/* <Box sx={{ width: { xs: "90%", sm: "35%" }, height: "40%" }}>
           <ReactPlayer
             url="https://video.wixstatic.com/video/705bee_da42c9111678488aaab9f20898c16d41/1080p/mp4/file.mp4"
             width={"100%"}
@@ -86,7 +120,7 @@ const Slogan = () => {
             muted
             playing
           />
-        </Box>
+        </Box> */}
       </Stack>
     </Box>
   );

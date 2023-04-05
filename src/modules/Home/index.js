@@ -1,6 +1,6 @@
 import * as React from "react";
 import { WhatsApp } from "@mui/icons-material";
-import { Fab, Stack, Typography } from "@mui/material";
+import { Box, Fab, Stack, Typography } from "@mui/material";
 import { TickerTape } from "react-ts-tradingview-widgets";
 import Awards from "./Awards";
 import BackToTop from "../../components/BackToTop";
@@ -13,6 +13,7 @@ import SocialMedia from "./SocialMedia";
 import SuccessDiaries from "./SuccessDiaries";
 import WhatWeOffer from "./WhatWeOffer";
 import Image from "next/image";
+import { team } from "../../assets/images";
 // import { WhatsApp } from "../../assets/svgs";
 
 const Home = () => {
@@ -72,6 +73,24 @@ const Home = () => {
         </Fab>
       </a>
       <Slogan />
+      <Stack justifyContent={"center"} alignItems="center">
+        <Typography variant="h4" fontWeight={"800"} textAlign="center" pt={2}>
+          <span>Our </span> Team
+        </Typography>
+
+        <Image
+          src={team}
+          alt="Traders guide academy"
+          height={400}
+          width={500}
+          style={{
+            objectFit: "contain",
+            objectPosition: " 50% 50%",
+            margin: "auto",
+            alignSelf: "center",
+          }}
+        />
+      </Stack>
       {/* <Events /> */}
       <WhatWeOffer />
       <Philosophy />

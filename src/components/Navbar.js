@@ -22,7 +22,7 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "About Us", link: "about-us" },
   { name: "Courses", link: "" },
-  { name: "Free Webinar", link: "" },
+  // { name: "Free Webinar", link: "" },
   { name: "Contact Us", link: "contact-us" },
   { name: "Log In", link: "" },
 ];
@@ -78,13 +78,14 @@ function DrawerAppBar(props) {
           </IconButton>
           <Box
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" },  }}
           >
             <Image
               src={logoName}
               alt="Traders guide academy"
               height={80}
               width={80}
+              // style={{background:'#fff',opacity:0.1}}
             />
           </Box>
           {/* Desktop Navbar */}
