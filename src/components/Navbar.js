@@ -13,7 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import * as React from "react";
-import { logoName } from "../assets/images/";
+import { logoName } from "../assets/images";
 import ActionMenu from "./ActionMenu";
 
 const drawerWidth = 240;
@@ -21,8 +21,7 @@ const drawerWidth = 240;
 const navItems = [
   { name: "Home", link: "/" },
   { name: "About Us", link: "about-us" },
-  { name: "Courses", link: "" },
-  // { name: "Free Webinar", link: "" },
+  { name: "Courses", link: "courses" },
   { name: "Contact Us", link: "contact-us" },
   { name: "Log In", link: "" },
 ];
@@ -65,7 +64,10 @@ function DrawerAppBar(props) {
     <Box sx={{ display: "flex" }}>
       <AppBar
         component="nav"
-        sx={{background:'black', alignItems: { xs: "flex-end", sm: "normal" } }}
+        sx={{
+          background: "black",
+          alignItems: { xs: "flex-end", sm: "normal" },
+        }}
       >
         <Toolbar>
           <IconButton
@@ -78,7 +80,7 @@ function DrawerAppBar(props) {
           </IconButton>
           <Box
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" },  }}
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
             <Image
               src={logoName}
@@ -90,32 +92,15 @@ function DrawerAppBar(props) {
           </Box>
           {/* Desktop Navbar */}
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map(({ name, link }) =>
-              name === "Courses" ? (
-                <ActionMenu
-                  key={name}
-                  name={name}
-                  options={[
-                    {
-                      key: "Options Multiplier",
-                      handleSelect: () => router.push('/om'),
-                    },
-                    {
-                      key: "Lets make India Trade",
-                      handleSelect: () => router.push('/lmitmasters'),
-                    },
-                  ]}
-                />
-              ) : (
-                <Button
-                  key={name}
-                  variant="text"
-                  sx={{ color: "#fff", textTransform: "none" }}
-                >
-                  <Link href={link}> {name}</Link>
-                </Button>
-              )
-            )}
+            {navItems.map(({ name, link }) => (
+              <Button
+                key={name}
+                variant="text"
+                sx={{ color: "#fff", textTransform: "none" }}
+              >
+                <Link href={link}> {name}</Link>
+              </Button>
+            ))}
           </Box>
         </Toolbar>
       </AppBar>
@@ -135,7 +120,7 @@ function DrawerAppBar(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
-              background:'black'
+              background: "black",
             },
           }}
         >

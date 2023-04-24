@@ -6,8 +6,8 @@ import Avatar from "react-avatar";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import "react-horizontal-scrolling-menu/dist/styles.css";
 import Carousel from "react-material-ui-carousel";
-import { star } from "../../../assets/svgs";
-import { UIData } from "../../../utils";
+import { star } from "../../assets/svgs";
+import { UIData } from "../../utils";
 
 function Item({ item: { name, image, stars, review }, index }) {
   return (

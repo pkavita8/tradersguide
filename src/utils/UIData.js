@@ -138,23 +138,19 @@ const UIData = {
   awards: [
     {
       title: "1",
-      image:
-        "https://static.wixstatic.com/media/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.jpg/v1/fit/w_1008,h_560,q_90/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.webp",
+      image: one,
     },
     {
       title: "2",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: two,
     },
     {
       title: "3",
-      image:
-        "https://static.wixstatic.com/media/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.jpg/v1/fit/w_1008,h_560,q_90/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.webp",
+      image: three,
     },
     {
       title: "4",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: four,
     },
     {
       title: "5",
@@ -176,6 +172,16 @@ const UIData = {
       image:
         "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
     },
+    {
+      title: "9",
+      image:
+        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+    },
+    {
+      title: "10",
+      image:
+        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+    },
   ],
   social: [
     {
@@ -183,7 +189,7 @@ const UIData = {
       icon: YouTube,
       link: "https://www.youtube.com/@tradersguideacademy",
     },
- 
+
     {
       title: "Twitter",
       icon: Twitter,

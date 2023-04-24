@@ -1,7 +1,7 @@
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 import Image from "next/image";
 import * as React from "react";
-import { trade151, trade152 } from "../../../assets/images";
+import { trade151, trade152 } from "../../assets/images";
 
 const Overview = () => {
   return (

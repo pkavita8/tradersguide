@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import "react-horizontal-scrolling-menu/dist/styles.css";
 import ReactPlayer from "react-player/youtube";
-import { UIData } from "../../../utils";
+import { UIData } from "../../utils";
 
 function Item({ item: { title, description, thumbnail, videoLink }, index }) {
   return (

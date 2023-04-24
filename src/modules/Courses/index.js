@@ -1,18 +1,18 @@
 import * as React from "react";
-import BackToTop from "../../../components/BackToTop";
+import BackToTop from "../../components/BackToTop";
 import Slogan from "./Slogan";
 import Overview from "./Overview";
-import PastSpeakers from "../../Home/PastSpeakers";
-import Awards from "../../Home/Awards";
+import PastSpeakers from "../Home/PastSpeakers";
+import Awards from "../Home/Awards";
 import Learn from "./Learn";
 import Reviews from "./Reviews";
 import { Button, Stack } from "@mui/material";
 
-const OptionsMultiplier = () => {
+const CoursesMain = () => {
   return (
     <BackToTop>
       <Slogan />
-      {/* <Overview /> */}
+      <Overview />
       {/* <PastSpeakers /> */}
       <Stack justifyContent="center" alignItems="center" my={5}>
         <Button variant="contained">REGISTER NOW</Button>
@@ -24,4 +24,4 @@ const OptionsMultiplier = () => {
   );
 };
 
-export default OptionsMultiplier;
+export default CoursesMain;

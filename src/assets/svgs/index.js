@@ -1,4 +1,4 @@
-export { default as logo } from "./Logo.svg";
+export { default as logo } from "./blue.svg";
 export { default as logoName } from "./LogoName.svg";
 export { default as Insta } from "./Insta.svg";
 export { default as LinkedIn } from "./LinkedIn.svg";
