@@ -1,4 +1,22 @@
-import { five, four, one, options, six, three, two } from "../assets/images";
+import {
+  five,
+  four,
+  one,
+  options,
+  six,
+  three,
+  two,
+  event1,
+  event2,
+  event3,
+  event4,
+  event5,
+  event6,
+  event7,
+  event8,
+  event9,
+  event10,
+} from "../assets/images";
 import { YouTube, Insta, Facebook, Twitter, LinkedIn } from "../assets/svgs";
 
 const UIData = {
@@ -138,49 +156,43 @@ const UIData = {
   awards: [
     {
       title: "1",
-      image: one,
+      image: event1,
     },
     {
       title: "2",
-      image: two,
+      image: event2,
     },
     {
       title: "3",
-      image: three,
+      image: event3,
     },
     {
       title: "4",
-      image: four,
+      image: event4,
     },
     {
       title: "5",
-      image:
-        "https://static.wixstatic.com/media/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.jpg/v1/fit/w_1008,h_560,q_90/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.webp",
+      image: event5,
     },
     {
       title: "6",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: event6,
     },
     {
       title: "7",
-      image:
-        "https://static.wixstatic.com/media/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.jpg/v1/fit/w_1008,h_560,q_90/a1f0da_3cb6b78f913a44b8b1de97312241de5e~mv2.webp",
+      image: event7,
     },
     {
       title: "8",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: event8,
     },
     {
       title: "9",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: event9,
     },
     {
       title: "10",
-      image:
-        "https://static.wixstatic.com/media/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.jpg/v1/fit/w_838,h_560,q_90/705bee_bfde675a35e44bd59dc0ef19d3476127~mv2.webp",
+      image: event10,
     },
   ],
   social: [

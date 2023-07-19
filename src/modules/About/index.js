@@ -93,7 +93,7 @@ const About = () => {
               width={{ xs: "90%", sm: "70%", }}
               pt={3}
             >
-              Traders Guide is India&apos;s one of the fastest growing academy
+              Traders Guide Academy is India&apos;s one of the fastest growing academy
               that provides Premium  Training in Trading & Investments.
               <br /> Our mission is to touch 1 million lives & make them
               Independent Profitable Investors & Traders
